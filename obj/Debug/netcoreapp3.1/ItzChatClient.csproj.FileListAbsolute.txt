@@ -1,0 +1,15 @@
+/home/itzblacky/projects/ItzChatClient/bin/Debug/netcoreapp3.1/ItzChatClient
+/home/itzblacky/projects/ItzChatClient/bin/Debug/netcoreapp3.1/ItzChatClient.deps.json
+/home/itzblacky/projects/ItzChatClient/bin/Debug/netcoreapp3.1/ItzChatClient.runtimeconfig.json
+/home/itzblacky/projects/ItzChatClient/bin/Debug/netcoreapp3.1/ItzChatClient.runtimeconfig.dev.json
+/home/itzblacky/projects/ItzChatClient/bin/Debug/netcoreapp3.1/ItzChatClient.dll
+/home/itzblacky/projects/ItzChatClient/bin/Debug/netcoreapp3.1/ItzChatClient.pdb
+/home/itzblacky/projects/ItzChatClient/bin/Debug/netcoreapp3.1/websocket-sharp-core.dll
+/home/itzblacky/projects/ItzChatClient/obj/Debug/netcoreapp3.1/ItzChatClient.csprojAssemblyReference.cache
+/home/itzblacky/projects/ItzChatClient/obj/Debug/netcoreapp3.1/ItzChatClient.AssemblyInfoInputs.cache
+/home/itzblacky/projects/ItzChatClient/obj/Debug/netcoreapp3.1/ItzChatClient.AssemblyInfo.cs
+/home/itzblacky/projects/ItzChatClient/obj/Debug/netcoreapp3.1/ItzChatClient.csproj.CoreCompileInputs.cache
+/home/itzblacky/projects/ItzChatClient/obj/Debug/netcoreapp3.1/ItzChatClient.csproj.CopyComplete
+/home/itzblacky/projects/ItzChatClient/obj/Debug/netcoreapp3.1/ItzChatClient.dll
+/home/itzblacky/projects/ItzChatClient/obj/Debug/netcoreapp3.1/ItzChatClient.pdb
+/home/itzblacky/projects/ItzChatClient/obj/Debug/netcoreapp3.1/ItzChatClient.genruntimeconfig.cache

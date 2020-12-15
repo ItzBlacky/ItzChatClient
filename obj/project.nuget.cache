@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "imPbTRTu8P1Eh1e4LuEDw5JIl7qjDYbja+1+BQlqyl5OCLDiszR69y8DXkM6Lxn819YPWn6OkoXqRLDcRGK5eg==",
+  "success": true,
+  "projectFilePath": "/home/itzblacky/projects/ItzChatClient/ItzChatClient.csproj",
+  "expectedPackageFiles": [
+    "/home/itzblacky/.nuget/packages/websocketsharp.core/1.0.0/websocketsharp.core.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

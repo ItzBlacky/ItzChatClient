@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "websocketsharp.core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/websocket-sharp-core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/websocket-sharp-core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "websocketsharp.core/1.0.0": {
+      "sha512": "Pdr9TtOtlaxKI6XtuHdRBrxFsBPCpqxNerAFbpdb2K7foBMYJmUOV+wqhklZilphtFjxT5zN1X6X3iyG/OovAQ==",
+      "type": "package",
+      "path": "websocketsharp.core/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/websocket-sharp-core.dll",
+        "websocketsharp.core.1.0.0.nupkg.sha512",
+        "websocketsharp.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "websocketsharp.core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/itzblacky/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/itzblacky/projects/ItzChatClient/ItzChatClient.csproj",
+      "projectName": "ItzChatClient",
+      "projectPath": "/home/itzblacky/projects/ItzChatClient/ItzChatClient.csproj",
+      "packagesPath": "/home/itzblacky/.nuget/packages/",
+      "outputPath": "/home/itzblacky/projects/ItzChatClient/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/itzblacky/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "websocketsharp.core": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
