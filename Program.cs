@@ -117,11 +117,11 @@ namespace ItzChatClient
         private static void PrintCommands() 
         {
             Console.WriteLine("Commands:");
-                Console.WriteLine("     exit");
-                Console.WriteLine("     register <username> <password> <email>");
-                Console.WriteLine("     login <username> <password> ");
-                Console.WriteLine("     loggedin");
-                Console.WriteLine("     send <username> <message>");
+            Console.WriteLine("     exit");
+            Console.WriteLine("     register <username> <password> <email>");
+            Console.WriteLine("     login <username> <password> ");
+            Console.WriteLine("     loggedin");
+            Console.WriteLine("     send <username> <message>");
         }
     }
 }
