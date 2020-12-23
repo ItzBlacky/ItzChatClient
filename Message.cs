@@ -23,9 +23,7 @@ namespace ItzChatClient
         }
         public static Message FromJson(string Json)
         {
-                Console.WriteLine($"Trying to convert json: {Json}");
-                Message message = JsonSerializer.Deserialize<Message>(Json.Replace("\\u002", ""));
-                Console.WriteLine($"1");
+                Message message = JsonSerializer.Deserialize<Message>(Json);
                 return message;
         }
     }

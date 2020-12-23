@@ -27,6 +27,7 @@ namespace ItzChatClient
                     Console.WriteLine("Received non text message");
                     return;
                 }
+
                 Message message = Message.FromJson(e.Data);
                 if(message.Type == "AUTHRESPONSE")
                 {
@@ -42,25 +43,45 @@ namespace ItzChatClient
                     Console.WriteLine("\nAuthResponse returned: " + message.Data[0]);
                     return;
                 }
+
+                if(message.Type == "MESSAGE")
+                {
+                    if(message.Data.Length != 3)
+                    {
+                        Console.WriteLine("Received malformed message");
+                        return;
+                    }
+                    Console.WriteLine($"MESSAGE FROM {message.Data[1]}(USERID:{message.Data[0]}) >> {message.Data[2]}");
+                    return;
+                }
+
+                if(message.Type == "RESPONSE")
+                {
+                    Console.WriteLine($"Received response with code: {message.Data[0]} and additional datas:");
+                    for(int i = 1; i < message.Data.Length; i++)
+                    {
+                        Console.WriteLine("---: " + message.Data[i]);
+                    }
+                    return;
+                }
+
                 Console.WriteLine($"Message with type {message.Type} received, contents:");
                 foreach(var i in message.Data)
                 {
-                    Console.WriteLine(i);
+                    Console.WriteLine("---: " + i);
                 }
             };
+
             ws.Connect();
+
             if(!ws.IsAlive)
             {
                 Console.WriteLine("Unable to connect! exiting..");
                 return;
             }
-            Console.WriteLine("Commands:");
-            Console.WriteLine("     commands");
-            Console.WriteLine("     exit");
-            Console.WriteLine("     register <username> <password> <email>");
-            Console.WriteLine("     login <username> <password> ");
-            Console.WriteLine("     loggedin");
-            Console.WriteLine("     send <username> <message>");
+            
+            PrintCommands();
+
             while(true)
             {
                 Console.Write("> ");
